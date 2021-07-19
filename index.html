@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallet Money Apps</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/dropdown.css">
     <!--  start link font chữ  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <!-- end  link font chữ  -->
-
 </head>
 
 <body>
@@ -22,12 +23,21 @@
         <div class="nav_container">
             <div class="nav_menu">
                 <div class="nav_menu_split">SplitBills </div>
+                <div class="dropdown">
+                        <img onclick="myFunction()"   class=" dropbtn menu_icon" src="https://static.thenounproject.com/png/2514760-200.png"  >
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#Howitworks">How it works</a>
+                      <a href="#Features">Features</a>
+                      <a href="#Blog">Blog</a>
+                      <a href="#Help">Help</a>
+                    </div>
+                  </div>
                 <div class="nav_menu_main">
                     <div class="nav_manu_main_center">
-                        <div class="nav_menu_main_m">How it works</div>
-                        <div class="nav_menu_main_m">Features</div>
-                        <div class="nav_menu_main_m">Blog</div>
-                        <div class="nav_menu_main_m">Help</div>
+                        <div href="#Howitworks"  class="nav_menu_main_m">How it works</div>
+                        <div href="#Features" class="nav_menu_main_m">Features</div>
+                        <div href="#Blog" class="nav_menu_main_m">Blog</div>
+                        <div href="#Help" class="nav_menu_main_m">Help</div>
                     </div>
                     <div class="login_signup">
                         <div class="login">
@@ -40,6 +50,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- end menu  -->
     </nav>
@@ -52,7 +63,7 @@
             <div class="main_top_container">
                 <div class="main_top_container_contents">
                     <div class="main_image">
-                        <img src="./assets/images/Group 1091.svg" alt=" " >
+                        <img src="./assets/images/Group 1091.svg"  >
                     </div>
                     <div class="main_top_content">
                         <div class="main_top_content_container">
@@ -60,20 +71,12 @@
                                 <span class="main_content_title_splitbill">SplitBills</span>
                             </div>
                             <div class="main_content_title_center">Easy to use, Simple to use & Safety to use.</div>
-                            <div class="main_content_icon">
+                            <div class="main_top_content_container_icons">
                                 <div class="main_content_icon_content">
-                                    <img class="ggplay_icon" src="./assets/images/Group.svg" alt=" " >
-                                    <div class="ggplay_title">
-                                        <div>GET IT ON</div>
-                                        <div>GOOGLE PLAY</div>
-                                    </div>
+                                    <img  src="./assets/images/ggplay 1095.svg" alt=" " >
                                 </div>
                                 <div class="main_content_icon_content">
                                     <img class="ggplay_icon" src="./assets/images/appstore.svg" alt=" " >
-                                    <div class="ggplay_title">
-                                        <div>Download on the</div>
-                                        <div>App store</div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +126,7 @@
         </div>
         <!-- end  main Social  -->
         <!-- start main Amazing  -->
-        <div class="main_amazing">
+        <!-- <div class="main_amazing">
             <div class="main_amazing_container">
                 <div class="main_amazing_title">Amazing Features from us</div>
                 <div class="main_amazing_contents">
@@ -166,6 +169,66 @@
                         <img  src="./assets/images/Xn.svg" alt=" " >
                     </div>
                 </div>            
+            </div>
+        </div> -->
+        <div class="main_amazing">
+            <div class="main_amazing_container">
+                <div class="main_amazing_title">Amazing Features from us</div>
+                <div class="main_amazing_contents">
+                    <div class="main_amazing_contents_contain">
+                        <div class="main_amazing_content_left">
+                            <div class=" main_amazing_content_left_top">
+                                Multi-Transaction
+                            </div>
+                            <div class="main_amazing_content_left_bottom">
+                                Easy use with multi transaction features
+                            </div>
+                        </div>
+                        <div class="main_amazing_content_right">
+                            <div class="main_amazing_content_right_image">
+                                <img  src="./assets/images/Xn5FbEM9564.svg" >
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="main_amazing_contents">
+                    <div class="main_amazing_contents_contain">
+                        
+                        <div class="main_amazing_content_right">
+                            <div class="main_amazing_content_right_image">
+                                <img  src="./assets/images/x5phone.svg"  >
+                            </div>
+                        </div>
+                        <div class="main_amazing_content_left">
+                            <div class=" main_amazing_content_left_top2">
+                                Safety System
+                            </div>
+                            <div class="main_amazing_content_left_bottom2">
+                                Easy use with safety system features      
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="main_amazing_contents">
+                    <div class="main_amazing_contents_contain">
+                        <div class="main_amazing_content_left">
+                            <div class=" main_amazing_content_left_top">
+                                Cashless System
+                            </div>
+                            <div class="main_amazing_content_left_bottom">
+                                Say goodbay to Cash Transaction       
+                            </div>
+                        </div>
+                        <div class="main_amazing_content_right">
+                            <div class="main_amazing_content_right_image">
+                                <img  src="./assets/images/Xn.svg"  >
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+               
             </div>
         </div>
         <!-- end main Amazing  -->
@@ -240,8 +303,8 @@
 
                         <div class="footer_top_container_contents3"  >
                             <h3 class="footer_top_title">Subscribe</h3>
-                            <div class="footer_input">
-                                <div  class="footer_input_e">
+                            <div class="footer_input list_content">
+                                <div  class="footer_input_e ">
                                     <input class="footer_input_email" type="email" name="email"  placeholder="Email Address" />
                                 </div>                        
                                 <div   class="footer_input_icon">
@@ -252,8 +315,16 @@
 
                         <div class="footer_top_container_contents4"  >
                             <h3 class="footer_top_title">Downloads</h3>
-                            <div class="footer_content_icon">
-                                <div class="main_content_icon_content">
+                            <div class="footer_top_icons4">
+                               
+                                    <div class="footer_top_icons4_ggplay">
+                                        <img  src="./assets/images/ggplay 1095.svg" alt=" " >
+                                    </div>
+                                    <div class="footer_top_icons4_appstore">
+                                        <img   src="./assets/images/appstore.svg" alt=" " >
+                                    </div>
+                                
+                                <!-- <div class="main_content_icon_content">
                                     <img class="ggplay_icon" src="./assets/images/Group.svg" alt=" " >
                                     <div class="ggplay_title">
                                         <div>GET IT ON</div>
@@ -267,7 +338,7 @@
                                         <div>Download on the</div>
                                         <div>App store</div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -293,7 +364,22 @@
         </div>
     </footer>
     <!-- end footer  -->
-
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
 </body>
-
 </html>
