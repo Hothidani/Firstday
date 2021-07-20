@@ -96,7 +96,8 @@
         margin-top: 10px;
     }
 
-    .main_promo_container_contents1, .main_promo_container_contents2, .main_promo_container_contents3 {
+    .main_promo_container_contents1,
+     .main_promo_container_contents2, .main_promo_container_contents3 {
         width: 60%;
         margin-top: 20px;
     }
@@ -227,7 +228,8 @@
         margin-top: 20px;
     }
 
-    .main_promo_content_title1, .main_promo_content_title3 {
+    .main_promo_content_title1_conten1,
+     .main_promo_content_title3 {
         font-size: 20px;
     }
 
@@ -235,10 +237,10 @@
         font-size: 20px;
         width: 80%;
     }
-    .main_promo_img1 {
+    /* .main_promo_img1 {
         position: relative;
         right:45px;
-    }
+    } */
 
     .footer_top_container_contents {
         flex-wrap: wrap;
@@ -271,7 +273,7 @@
 
     .footer_input_email {
         width: 100%;
-        height: 26px;
+        height: 20px;
         font-family: "Gotham";
     }
 
