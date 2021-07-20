@@ -372,6 +372,12 @@ main {
 }
 
 .main_promo_container_contents1 {
+    width: 345px;
+    height: 436px;   
+    background-color: #129EFC; 
+}
+
+/* .main_promo_container_contents1 {
     display: flex;
     width: 345px;
     height: 436px;   
@@ -380,13 +386,18 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #129EFC; 
-}
+} */
 
 
-.main_promo_img1 {
+/* .main_promo_img1 {
     position: relative;
     top:40px;
     right: 86px;
+} */
+
+.main_promo_img1 {
+    width: 100%;
+
 }
 
 .main_promo_img2 {
@@ -424,6 +435,38 @@ main {
 
 .main_promo_content_title1 {
     display: flex;
+    width: 100%;
+    height: 190px;
+    justify-content: center;
+    /* position: relative; */
+    /* top:40px; */
+    /* color: #FFFFFF; */
+    /* font-family: "Gotham"; */
+    /* font-size: 28px; */
+    /* text-align: center; */
+    /* flex-direction: column; */
+}
+
+.main_promo_content_title1_conten1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 76px;
+    /* align-items: flex-end; */
+    width: 80%;
+    height: 114px;
+    /* width: 80%; */
+    /* height: 76px; */
+    /* position: relative; */
+    /* top: 17px; */
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Gotham";
+    font-size: 28px;
+}
+
+/* .main_promo_content_title1 {
+    display: flex;
     width: 90%;
     height: 114px;
     position: relative;
@@ -433,10 +476,10 @@ main {
     font-size: 28px;
     text-align: center;
     flex-direction: column;
-}
+} */
 
 .main_promo_content_title2 {
-    width: 90%;
+    width: 80%;
     height: 76px;
     position: relative;
     top: 17px;
